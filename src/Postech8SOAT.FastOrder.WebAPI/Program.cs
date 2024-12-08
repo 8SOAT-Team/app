@@ -45,7 +45,7 @@ builder.Services.ConfigureHttpJsonOptions(options => {
 
 builder.Services.AddCors();
 
-builder.Services.AddSingleton<CleanArch.UseCase.Logging.ILogger, ConsoleLogger>();
+//builder.Services.AddSingleton<CleanArch.UseCase.Logging.ILogger, ConsoleLogger>();
 
 var app = builder.Build();
 
