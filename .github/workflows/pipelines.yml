@@ -25,7 +25,7 @@ jobs:
 
       # Construir o projeto
       - name: Build
-        run: dotnet build Fast-Order.sln --no-restore
+        run: dotnet build Fast-Order.sln
 
       # Executar os testes
       - name: Test with the dotnet 
