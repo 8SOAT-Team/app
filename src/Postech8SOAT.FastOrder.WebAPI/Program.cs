@@ -19,11 +19,11 @@ builder.Services.AddSwaggerGen(c =>
     c.AddEnumsAsStringsFilter();
 });
 
-Log.Logger = new LoggerConfiguration()
-    .WriteTo.Console()
-    .CreateLogger();
+//Log.Logger = new LoggerConfiguration()
+  //  .WriteTo.Console()
+  //  .CreateLogger();
 
-//Registrando as dependências
+//Registrando as dependÃªncias
 builder.Services.ConfigureDI();
 
 var jsonOptions = new JsonSerializerOptions(JsonSerializerDefaults.Web)
@@ -51,7 +51,7 @@ var app = builder.Build();
 
 app.ConfigureExceptionHandler();
 
-//Executar as migrações pendentes
+//Executar as migraÃ§Ãµes pendentes
 if (EnvConfig.RunMigrationsOnStart)
 {
     await MigracoesPendentes.ExecuteMigrationAsync(app);
