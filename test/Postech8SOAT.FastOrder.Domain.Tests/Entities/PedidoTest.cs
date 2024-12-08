@@ -51,7 +51,7 @@ namespace Postech8SOAT.FastOrder.Domain.Tests.Entities
         //public void DeveLancarExceptionQuandoPedidoTiverIdClienteInvalido()
         //{
             //Arrange
-            var itemPedido = new ItemDoPedido(Guid.NewGuid(), Guid.NewGuid(), 2);
+            //var itemPedido = new ItemDoPedido(Guid.NewGuid(), Guid.NewGuid(), 2);
            // List<ItemDoPedido> listaItens = new List<ItemDoPedido>();
             //listaItens.Add(itemPedido);
             //Act
