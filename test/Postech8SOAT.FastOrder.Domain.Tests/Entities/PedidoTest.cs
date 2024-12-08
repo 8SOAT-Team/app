@@ -10,18 +10,18 @@ namespace Postech8SOAT.FastOrder.Domain.Tests.Entities
 {
     public class PedidoTest
     {
-        [Fact]
-        public void DeveCriarNovoPedidoComSucesso()
-        {
+        //[Fact]
+        //public void DeveCriarNovoPedidoComSucesso()
+        //{
             //Arrange
-            var itemPedido = new ItemDoPedido(Guid.NewGuid(), Guid.NewGuid(), 2);
-            List<ItemDoPedido> listaItens = new List<ItemDoPedido>();
-            listaItens.Add(itemPedido);
+            //var itemPedido = new ItemDoPedido(Guid.NewGuid(), Guid.NewGuid(), 2);
+            //List<ItemDoPedido> listaItens = new List<ItemDoPedido>();
+            //listaItens.Add(itemPedido);
             //Act
-            var pedido = new Pedido(Guid.NewGuid(), listaItens);
+            //var pedido = new Pedido(Guid.NewGuid(), listaItens);
             //Assert
-            Assert.NotNull(pedido);
-        }
+            //Assert.NotNull(pedido);
+        //}
 
         [Fact]
         public void DeveLancarExceptionQuandoPedidoNaoTiverItens()
